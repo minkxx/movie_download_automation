@@ -6,7 +6,7 @@ from services.mediator_page import HbLinksFromMediatorPage
 BRAVE_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 CHROME_DRIVER_PATH = r"../drivers/chromedriver.exe"
 
-def main():
+def run_main():
     print("--------------------- Get Movie Links Automation ---------------------")
     download_query = input("Enter Movie/Web Series name : ")
     driver = SeleniumDriver(browser_path=BRAVE_PATH, driver_path=CHROME_DRIVER_PATH).get_driver()
@@ -46,4 +46,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run_main()

@@ -4,9 +4,10 @@ from selenium.webdriver.chrome.options import Options
 import os
 
 class SeleniumDriver:
-    def __init__(self, browser_path: str, driver_path: str):
+    def __init__(self, browser_path: str, driver_path: str, headless: bool = True):
         self.browser_path = browser_path
         self.driver_path = driver_path
+        self.__headless = headless
 
         # Checks for legit path
         if not os.path.isfile(self.browser_path):
@@ -15,10 +16,11 @@ class SeleniumDriver:
         if not os.path.isfile(driver_path):
             raise FileNotFoundError(f"Chromedriver not found at: {self.driver_path}")
 
-    def get_driver(self):
+    def get_driver(self) -> webdriver.Chrome:
         options = Options()
         options.binary_location = self.browser_path
-        # options.add_argument("--headless") # disables browser ui
+        if self.__headless:
+            options.add_argument("--headless")
         service = Service(self.driver_path)
         driver = webdriver.Chrome(service=service, options=options)
         return driver
