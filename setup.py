@@ -1,3 +1,5 @@
+# version 0.1.0
+
 from setuptools import setup, find_packages
 
 setup(
