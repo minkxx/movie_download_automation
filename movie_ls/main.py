@@ -4,7 +4,7 @@ from parsers.hdhub4u_html_parser import HdHub4uHtmlParser
 from services.mediator_page import HbLinksFromMediatorPage
 
 BRAVE_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
-CHROME_DRIVER_PATH = r"drivers/chromedriver.exe"
+CHROME_DRIVER_PATH = r"../drivers/chromedriver.exe"
 
 def main():
     print("--------------------- Get Movie Links Automation ---------------------")
