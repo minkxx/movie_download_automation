@@ -1,12 +1,12 @@
-# version 0.1.0
+# version 0.2.0
 
-from driver import SeleniumDriver
-from web_page_extractor import WebPageExtractor
-from parsers.hdhub4u_html_parser import HdHub4uHtmlParser
-from services.mediator_page import HbLinksFromMediatorPage
+from movie_ls.driver import SeleniumDriver
+from movie_ls.web_page_extractor import WebPageExtractor
+from movie_ls.parsers.hdhub4u_html_parser import HdHub4uHtmlParser
+from movie_ls.services.mediator_page import HbLinksFromMediatorPage
 
 BRAVE_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
-CHROME_DRIVER_PATH = r"../drivers/chromedriver.exe"
+CHROME_DRIVER_PATH = r"drivers/chromedriver.exe"
 
 def run_main():
     print("--------------------- Get Movie Links Automation ---------------------")
