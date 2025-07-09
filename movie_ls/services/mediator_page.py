@@ -1,4 +1,4 @@
-# version 0.3.0
+# version 1.0.0
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
