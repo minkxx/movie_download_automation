@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/movie_ls-v0.1.0-crimson" alt="AssistantBot version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/movie_ls-v0.3.0-crimson" alt="movie_ls version"></a>
   <a href="https://github.com/minkxx/movie_download_automation/stargazers"><img src="https://img.shields.io/github/stars/minkxx/movie_download_automation?style=flat-square&color=yellow" alt="Stars"></a>
   <a href="https://github.com/minkxx/movie_download_automation/fork"><img src="https://img.shields.io/github/forks/minkxx/movie_download_automation?style=flat-square&color=orange" alt="Forks"></a>
   <a href="https://github.com/minkxx/movie_download_automation/"><img src="https://img.shields.io/github/repo-size/minkxx/movie_download_automation?style=flat-square&color=green" alt="Repo Size"></a>

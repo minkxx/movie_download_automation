@@ -1,4 +1,4 @@
-# version 0.2.0
+# version 0.3.0
 
 from movie_ls.driver import SeleniumDriver
 from movie_ls.web_page_extractor import WebPageExtractor
