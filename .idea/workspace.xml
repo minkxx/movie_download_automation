@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db06799f-6500-4f5a-a504-9dec0bca4b32" name="Changes" comment="Refactored files">
-      <change afterPath="$PROJECT_DIR$/movie_ls/services/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/hdhub4u_html_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/parsers/hdhub4u_html_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/parsers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/mediator_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/services/mediator_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_page_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/web_page_extractor.py" afterDir="false" />
-    </list>
+    <list default="true" id="db06799f-6500-4f5a-a504-9dec0bca4b32" name="Changes" comment="Refactored files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +86,7 @@
       <workItem from="1752035467570" duration="3864000" />
       <workItem from="1752039389235" duration="558000" />
       <workItem from="1752039961061" duration="948000" />
-      <workItem from="1752041315089" duration="303000" />
+      <workItem from="1752041315089" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored files">
       <option name="closed" value="true" />
