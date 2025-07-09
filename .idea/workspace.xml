@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db06799f-6500-4f5a-a504-9dec0bca4b32" name="Changes" comment="Refactored files">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_ls/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie_ls/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_ls/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Monsur\Desktop\Codes\Python Projects\MovieLinkScrape" />
       <recent name="C:\Users\Monsur\Desktop\Codes\Python Projects\MovieLinkScrape\movie_ls" />
       <recent name="C:\Users\Monsur\Desktop\Codes\Python Projects\MovieLinkScrape\parsers" />
     </key>

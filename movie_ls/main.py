@@ -1,3 +1,5 @@
+# version 0.1.0
+
 from driver import SeleniumDriver
 from web_page_extractor import WebPageExtractor
 from parsers.hdhub4u_html_parser import HdHub4uHtmlParser
