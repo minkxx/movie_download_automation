@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='movie_ls',
+    name='movie-link-scrape',
     version='1.0.0',
     packages=find_packages(),
     install_requires=[

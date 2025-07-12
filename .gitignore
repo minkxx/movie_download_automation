@@ -5,7 +5,7 @@ __pycache__/
 .idea
 build
 dist
-movie_ls.egg-info
 
 *.env
 *.env.local
+*.egg-info
