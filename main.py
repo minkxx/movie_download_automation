@@ -8,13 +8,15 @@ from movie_ls.services.mediator_page import HbLinksFromMediatorPage
 BRAVE_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 CHROME_DRIVER_PATH = r"drivers/chromedriver.exe"
 
+BASE_URL = "https://hdhub4u.family/?s="
+
 def run_main():
     print("--------------------- Get Movie Links Automation ---------------------")
     download_query = input("Enter Movie/Web Series name : ")
     driver = SeleniumDriver(browser_path=BRAVE_PATH, driver_path=CHROME_DRIVER_PATH).get_driver()
     print("Extracting web page...")
     extractor = WebPageExtractor(driver)
-    webpage_html = extractor.extract(f"https://hdhub4u.fail/?s={download_query.replace(' ', '%20')}")
+    webpage_html = extractor.extract(BASE_URL + download_query.replace(' ', '%20'))
     print("webpage extracted")
     print("Parsing webpage...")
     media_links = HdHub4uHtmlParser.parse_media_links(webpage_html)
